@@ -1,0 +1,121 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url("cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 650px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #3f3622;
+    width: 650px;
+    margin: 0 auto 0 auto;
+}
+
+nav {
+    text-align: right;
+    color: #FFFFFF;
+}
+
+div.content {
+    background-color: #FFFFFF;
+    padding-bottom: 1em;
+}
+
+div.fig {
+    padding: .9em 0 0 0;
+}
+
+div.fig img {
+    padding: 0.4em;
+    border: thin solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: .25em;
+}
+
+p {
+    text-align: center;
+}
+
+div.rooms {
+    margin: auto;
+    width: 600px;
+    padding-top: .75em;
+    padding-bottom: 1em;
+}
+
+div.room {
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+}
+
+div.room p {
+    padding: 0;
+    font-size: .75em;
+}
+
+nav p {
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    text-align: right;
+}
+
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited {
+    color: #CEC2A5;
+}
+
+a:link {
+    color: #3f3622;
+}
+
+a:visited {
+    color: #3f3622;
+}
+
+#stalking {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#stalking a {
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+div.links p{
+    padding-bottom: 1em;
+}
+div.instructions p{
+    font-size: .7em;
+    font-family: "Times New Roman", serif;
+    text-align: left;
+    padding: .5em;
+}
+
+p.inroom {
+    padding: 1em 0;
+}
