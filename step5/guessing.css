@@ -1,0 +1,50 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+fieldset {
+    display: block;
+    margin: .5em auto;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding: 0;
+}
+
+h1 {
+    background-color: red;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    padding: 0 0 0 .5em;
+}
+
+fieldset p {
+    font-size: .65em;
+    padding-top: 1em;
+    padding-left: .95em;
+}
+
+input[type="submit"] {
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 3em;
+}
+
+input[name="clear"] {
+    margin-bottom: 1em;
+}
+
+label[for="value"] {
+    display: inline-block;
+    text-align: center;
+}
